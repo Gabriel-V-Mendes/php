@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{
+    background: rgb(69,229,85);
+background: radial-gradient(circle, rgba(69,229,85,1) 14%, rgba(255,155,45,1) 90%);
+}
+
+form{
+    text-align: center;
+    transform: translateY(12em);
+    
+
+    background-color: rgb(231, 63, 2);
+    padding: 3em;
+    margin: 0em 32em 0em 32em;
+    height: 25vh;
+
+    border-radius: 5%;
+    border: solid 2px black ;
+    box-shadow: 0 0 10px black;
+   
+}
+
+
+.input1{
+    padding: 0.3em;
+    background-color: rgba(178, 233, 95, 0.873);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.input2{
+    padding: 0.3em;
+    background-color: rgba(178, 233, 95, 0.873);
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.botao{
+    transform: translateY(1em);
+    border-radius: 10px;
+    padding: 1vh;
+    box-shadow: 0 0 8px black;
+    background-color: rgb(172, 255, 88);
+}
+
+.botao:hover{
+    color: blueviolet;
+}
+
+.label1{
+    color: azure;
+}
+
+.label2{
+  color: azure;
+}
