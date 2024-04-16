@@ -1,57 +1,90 @@
 @charset "utf-8";
 
+@media screen and (max-width: 768px) {
+
+ body{
+    font-size: 16px;
+    font-family: sans-serif;
+    
+    background: rgb(201,143,1);
+    background: radial-gradient(circle, rgba(201,143,1,1) 14%, rgba(255,102,45,1) 92%);
+    text-align: center;
+    transform: translateY(5em);
+
+    h1{
+        color: aliceblue;
+        text-shadow: 0 0 8px azure;
+    }
+    
+    form{
+        background-color: rgba(193, 64, 0, 0.841);
+        box-shadow: 0 0 10px black;
+        border: solid 2px black;
+    
+        border-radius: 5%;
+        padding: 4em;
+        display: flex;
+    
+        margin: 0em 34em 0em 34em;
+    }
+    
+    select{
+        padding: 0.5em;
+        text-align: center;
+        transform: translateX(-3em);
+        border-radius: 10px;
+        box-shadow: 0 0 8px black;
+        
+    }
+    
+    input{
+        transform: translateX(-1em);
+        border-radius: 10px;
+        box-shadow: 0 0 8px black;
+    }
+    
+ }
+
+ img{
+    width: 100%;
+ }
+}
+
 body{
-    background: rgb(69,229,85);
-background: radial-gradient(circle, rgba(69,229,85,1) 14%, rgba(255,155,45,1) 90%);
+    background: rgb(201,143,1);
+background: radial-gradient(circle, rgba(201,143,1,1) 14%, rgba(255,102,45,1) 92%);
+text-align: center;
+transform: translateY(5em);
+}
+
+h1{
+    color: aliceblue;
+    text-shadow: 0 0 8px azure;
 }
 
 form{
-    text-align: center;
-    transform: translateY(12em);
-    
-
-    background-color: rgb(231, 63, 2);
-    padding: 3em;
-    margin: 0em 32em 0em 32em;
-    height: 25vh;
+    background-color: rgba(193, 64, 0, 0.841);
+    box-shadow: 0 0 10px black;
+    border: solid 2px black;
 
     border-radius: 5%;
-    border: solid 2px black ;
-    box-shadow: 0 0 10px black;
-   
+    padding: 4em;
+    display: flex;
+
+    margin: 0em 34em 0em 34em;
 }
 
-
-.input1{
-    padding: 0.3em;
-    background-color: rgba(178, 233, 95, 0.873);
+select{
+    padding: 0.5em;
+    text-align: center;
+    transform: translateX(-3em);
     border-radius: 10px;
-    box-shadow: 0 0 5px black;
-}
-
-.input2{
-    padding: 0.3em;
-    background-color: rgba(178, 233, 95, 0.873);
-    border-radius: 10px;
-    box-shadow: 0 0 5px black;
-}
-
-.botao{
-    transform: translateY(1em);
-    border-radius: 10px;
-    padding: 1vh;
     box-shadow: 0 0 8px black;
-    background-color: rgb(172, 255, 88);
+    
 }
 
-.botao:hover{
-    color: blueviolet;
-}
-
-.label1{
-    color: azure;
-}
-
-.label2{
-  color: azure;
+input{
+    transform: translateX(-1em);
+    border-radius: 10px;
+    box-shadow: 0 0 8px black;
 }
