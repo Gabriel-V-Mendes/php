@@ -1,71 +1,110 @@
 @charset "utf-8";
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+
 header{
-    background-color: black;
-    transform: translateY(-3em);
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    padding: 1em;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+span{
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
 }
 
 body{
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     text-align: center;
-    transform: translateY(8em);
-    background-color: rgb(0, 0, 0);
-    
-}
-
-h1{
-    transform: translateY(-1em);
-    color: aqua;
-    text-shadow: 0 0 8px aqua;
-}
-
-input{
-    padding: 0.4em;
-    border-radius: 10px 5px;
-    color: aqua;
-    background-color: gray;
-    border: solid aqua 2px;
-}
-
-.a{
-    transform: translateY(1em);
-}
-
-label{
-    color: aqua;
-    transform: translateY(-10px);
+    color: aliceblue;
 }
 
 
 form{
+    transform: translateY(15em);
+
+    background-color: rgb(80, 79, 79);
+
+    margin: 0em 23em 0em 23em;
+
+    padding: 5em;
+
+    border-radius: 10px;
+
+    border: solid 3px aqua;
+    filter: drop-shadow(0 0 10px aqua);
+}
+
+
+.input2{
+    padding: 0.2em;
+    border-radius: 10%;
     background-color: black;
-    padding: 7em;
-    margin: 0em 30em 0em 30em;
-    border: solid aqua 3px;
-    filter: drop-shadow( 0 0 10px aqua);
-
-    border-radius: 15px 3px;
-}
-
-ul{
-    transform: translateY(1.5em);
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid 3px rgb(0, 255, 225);
-
-    margin: 0em 30em 0em 30em ;
-    border-radius: 15px 3px;
-    list-style-type: none;
-    filter: drop-shadow( 0 0 10px rgb(0, 251, 255));
-}
-
-h3{
-    transform: translateY(1em);
     color: aqua;
+    text-shadow: 0 0 10px aqua;
+    border: solid 3px aqua;
+}
+
+
+.input1{
+    transform: translateY(2em);
+    padding: 0.3em;
+    border-radius: 10px;
+    border: solid 2px cyan;
+    background-color: black;
+    color: aqua;
+    filter: drop-shadow(0 0 8px cyan);
+}
+
+.label1{
+    color: aqua;
+}
+
+.certo{
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 10px rgb(43, 255, 0);
+
+
+}
+
+.erro{
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+
+}
+
+
+
+footer{
+    background-color: rgb(49, 49, 49);
+    transform: translateY(25em);
+    padding: 1.5em;
+}
+
+.dark-mode body{
+    background-color: aliceblue;
+}
+
+
+.dark-mode header{
+    background-color: rgb(179, 179, 179);
+}
+
+.dark-mode footer{
+    background-color: rgb(189, 189, 189);
+}
+
+.dark-mode span{
+    color: rgb(0, 47, 255);
 }
